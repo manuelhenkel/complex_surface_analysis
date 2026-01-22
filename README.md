@@ -17,9 +17,9 @@ The CNN models comprise:
 -  a few-shot learning (FSL) model for training on scarce data based on a pretrained CNN-backbone (FSL.ipynb and config_FSL.yaml).
 
 To test these models, the repository includes a set of trained model parameters for each of these models:
--  best_model.pth: Model parameters of the CNN;
--  feature_extractor.pth: Model parameters for the CNN-backbone for FSL;
--  best_fsl_model.pth: Model parameters of the FSL model (trained on 20 images/class)
+-  best_model.pth: model parameters of the CNN;
+-  feature_extractor.pth: model parameters for the CNN-backbone for FSL;
+-  best_fsl_model.pth: model parameters of the FSL model (trained on 20 images/class)
 
 To test these models, the repository further includes a small test dataset containing topgraphy images of:
 -  pristine (NOD) Polytetrafluorethylen (PTFE) samples;
