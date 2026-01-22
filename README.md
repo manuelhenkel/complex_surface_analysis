@@ -12,9 +12,9 @@ These datasets where obtained by calculating a set of surface parameters accordi
 Furthermore, to run these codes, the repository provides the NETCORE algorithm that is used by these models to remove redundant features in the datasets
 _________________________________________________________________________________________________________________________________________________________________________
 The CNN models comprise:
--  a shallow CNN for training;
--  a CNN predictor for calssifying new data based on a previously trained CNN model;
--  a few-shot learning (FSL) model for training on scarce data based on a pretrained CNN-backbone (feature extractor)
+-  a shallow CNN for training (CNN.ipynb and config_CNN.yaml) ;
+-  a CNN predictor for calssifying new data based on a previously trained CNN model(CNN_predictor.ipynb and config_predictor.yaml);
+-  a few-shot learning (FSL) model for training on scarce data based on a pretrained CNN-backbone (FSL.ipynb and config_FSL.yaml).
 
 To test these models, the repository includes a set of trained model parameters for each of these models:
 -  best_model.pth: Model parameters of the CNN;
