@@ -9,7 +9,7 @@ The k-means clustering model and the RF model can be tested using the attached n
 -  PTFE samples subjected to dual combinations of these wear types.
 These datasets where obtained by calculating a set of surface parameters according to DIN EN ISO 25178-2:2012-09 from the individual surface topografies of each sample.
 
-Furthermore, to run these codes, the repository provides the NETCORE algorithm that is used by these models to remove redundant features in the datasets
+Furthermore, to run these codes, the repository provides the NETCORE algorithm (C. A. Rickert et al. (2023)) that is used by these models to remove redundant features in the datasets
 _________________________________________________________________________________________________________________________________________________________________________
 The CNN models comprise:
 -  a shallow CNN for training (CNN.ipynb and config_CNN.yaml) ;
